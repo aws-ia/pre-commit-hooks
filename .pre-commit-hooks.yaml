@@ -1,0 +1,6 @@
+- id: git-submodule-sanity-check
+  name: Git submodule sanity check
+  description: Sanity Check on git submodules
+  language: script
+  entry: hooks/submodule-sanity-check.sh
+
