@@ -4,3 +4,8 @@
   language: script
   entry: hooks/submodule-sanity-check.sh
 
+- id: validate-semantic-version
+  name: Validate content of VERSION is a semantic version
+  language: python
+  files: VERSION
+  entry: validate-semantic-version
